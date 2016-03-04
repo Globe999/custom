@@ -1,7 +1,7 @@
 (function () {
 
     // Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "bscBot";
+    var fork = "Globe_999";
 
     // Define our function responsible for extending the bot.
     function extend() {
@@ -70,13 +70,13 @@
       maximumCycletime: 10,
       voteSkip: true,
       voteSkipLimit: 4,
-      historySkip: false,
+      historySkip: true,
       timeGuard: true,
       maximumSongLength: 10,
       autodisable: true,
       commandCooldown: 30,
       usercommandsEnabled: true,
-      skipPosition: 3,
+      skipPosition: null,
       skipReasons: [
       ["theme", "This song does not fit the room theme. "],
       ["op", "This song is on the OP list. "],
@@ -95,7 +95,7 @@
       etaRestriction: false,
       welcome: true,
       opLink: null,
-      rulesLink: "https://rcs.radiant.dj/shortcuts",
+      rulesLink: "https://goo.gl/vr9L6R",
       themeLink: null,
       fbLink: null,
       youtubeLink: null,
